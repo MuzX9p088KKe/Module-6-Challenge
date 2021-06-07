@@ -6,7 +6,7 @@ We wanted to create an application to help people determine the best places to v
 In order to do this, we created a series of three python scripts and broke down the application in three steps.
 
 The Weather_Database script creates the bulk of our data. 
-We started by generating 2000 sets of geographic coordinates at random by pairing a random latitude value with a random longitude value. Next, we used the citipy module (https://github.com/wingchen/citipy) to find the nearest city to these coordinates and eliminate all the coordinates that were in unpopulated areas, bodies of water, etc. After generating the cities, the script then fetches their weather information through the OpenWeatherMap API (https://openweathermap.org/api) and transfers the dataset to a CSV file.
+We started by generating 2000 sets of geographic coordinates at random by pairing a random latitude value with a random longitude value. Next, we used the [citipy module](https://github.com/wingchen/citipy) to find the nearest city to these coordinates and eliminate all the coordinates that were in unpopulated areas, bodies of water, etc. After generating the cities, the script then fetches their weather information through the [OpenWeatherMap API](https://openweathermap.org/api) and transfers the dataset to a CSV file.
 
 The Vacation_Search script was used next, and it utilized the CSV database in conjunction with the Google Places API to create  a customer travel destinations map. Its prompts allow the user to choose their ideal temperature range before refining potential destinations to match these criteria before finding the nearest hotel to these locations.
 
