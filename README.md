@@ -19,3 +19,7 @@ In order to use these scripts, one would have to first run Weather_ Database to 
 In order to do so, the user is prompted to choose a minimum and maximum desired temperature before the script filters out any record that doesn't fit the criteria.
 
 To finish the Road trip planning, the user would have to launch the Vacation_Itinerary script to create maps showing potential routes and showing the ideal vacation spots. This piece of the script may require further work to prompt user to further refine destinations by choosing countries and cities they want to visit rather than finding something suitable only by looking at the potential destinations maps and manually populating each field to add them to the itinerary and pop-up marker maps.
+
+
+  ![WeatherPy_travel_map](https://user-images.githubusercontent.com/76575162/120953297-48398500-c712-11eb-839e-7baf81a9266b.png)
+
