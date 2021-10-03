@@ -1,4 +1,4 @@
-# Module 6 Challenge: PlanMyTrip App
+# PlanMyTrip App
 
 ## Purpose:
 
